@@ -7,7 +7,7 @@ from dbconnection import Connection
 app= Flask(__name__)
 CORS(app)
 PORT= 5000
-DEBUG=True
+DEBUG=False
 
 def connect_bd():
     con = Connection(
